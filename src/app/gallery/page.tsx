@@ -30,10 +30,10 @@ export default function GalleryPage() {
                            </span>
                         </div>
                         <Image
-                           src={component.id === "water-ripple" ? "/next.svg" : "/placeholder.jpg"} // Using next.svg as a temporary placeholder since the user said they'll handle images
+                           src={component.image}
                            alt={component.name}
                            fill
-                           className="object-contain p-8 transition-transform duration-500 group-hover:scale-110 opacity-20"
+                           className="object-cover transition-transform duration-500 group-hover:scale-110"
                         />
                      </div>
                      <div className="flex flex-1 flex-col p-6">

@@ -88,8 +88,8 @@ export default function RippleEffect() {
     textCanvas.height = canvasHeight;
     const ctx = textCanvas.getContext('2d', { alpha: true });
 
-    let fontSize = Math.round(250 * window.devicePixelRatio);
-    const textString = "Please Move the cursor over the text";
+    let fontSize = Math.round(150 * window.devicePixelRatio);
+    const textString = "Water-Ripple-Effect";
 
     function clearCanvas() {
       ctx.clearRect(0, 0, textCanvas.width, textCanvas.height);
@@ -99,8 +99,8 @@ export default function RippleEffect() {
 
     function drawTwoLineText() {
       clearCanvas();
-      fontSize = Math.round(250 * window.devicePixelRatio);
-      const maxWidth = textCanvas.width * 0.9;
+      fontSize = Math.round(150 * window.devicePixelRatio);
+      const maxWidth = textCanvas.width * 1.9;
 
       ctx.fillStyle = '#fef4b8';
       ctx.font = `bold ${fontSize}px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif`;
