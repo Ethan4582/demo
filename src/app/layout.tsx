@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Demo-t7block",
-  description: "It T7Block Demo/Implementation",
+  title: "Demo-t7labs",
+  description: "It T7Block Blog Demo/Implementation",
 };
 
 

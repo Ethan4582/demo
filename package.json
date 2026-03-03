@@ -1,19 +1,14 @@
 {
-  "name": "demo-t7block",
+  "name": "demo-t7labs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "npx opennextjs-cloudflare build",
     "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "preview": "npx opennextjs-cloudflare build && npx opennextjs-cloudflare preview",
-    "deploy": "npx opennextjs-cloudflare build && npx opennextjs-cloudflare deploy",
-    "upload": "npx opennextjs-cloudflare build && npx opennextjs-cloudflare upload",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+    "lint": "eslint"
   },
   "dependencies": {
-    "@opennextjs/cloudflare": "^1.17.1",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",

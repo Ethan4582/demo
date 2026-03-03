@@ -1,6 +1,6 @@
 # demo-7labs
 
-This repository contains the Next.js implementation of the blog published at  [@blog.tae7labs](https://github.com/Ethan4582/blog)   
+This repository contains the Next.js implementation of the blog published at  [@blog.t7labs](https://github.com/Ethan4582/blog)   
 
 ![Demo](public/assets/image.png)
 
