@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# demo-7labs
 
-## Getting Started
+This repository contains the Next.js implementation of the blog published at  [@blog.tae7labs](https://github.com/Ethan4582/blog)   
 
-First, run the development server:
+![Demo](public/assets/image.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The blog showcases new components, templates, and modern frontend techniques commonly seen on premium landing pages. This repo is the working project version of those published articles.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> Important: The designs are not fully original concepts. They are inspired by various websites and YouTube tutorials. Proper credits have been acknowledged in the blog wherever applicable.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Developer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Developed by:** [@Ethan4582](https://github.com/Ethan4582)  
+**Contact:** [@SinghAshir65848](https://x.com/SinghAshir65848)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ☕ Support the Creator
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you find this project useful, consider supporting us!  
+Your contribution helps in the development and maintenance of high-quality open-source projects.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[Buy Me a Coffee](https://buymeacoffee.com/ashirwad05)
+
+---
+
+## License
+
+This project is open-source. Please credit the developers and the original designer when using this work.
