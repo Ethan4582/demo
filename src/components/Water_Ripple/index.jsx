@@ -18,7 +18,6 @@ export default function RippleEffect() {
   useEffect(() => {
     const canvas = canvasRef.current;
 
-    // Scene, camera, renderer
     const scene = new THREE.Scene();
     const simScene = new THREE.Scene();
     const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
@@ -34,7 +33,6 @@ export default function RippleEffect() {
 
     const mouse = mouseRef.current;
 
-    // Render targets for ping-pong simulation
     const width = window.innerWidth * window.devicePixelRatio;
     const height = window.innerHeight * window.devicePixelRatio;
     const options = {
@@ -49,7 +47,7 @@ export default function RippleEffect() {
     let rtA = new THREE.WebGLRenderTarget(width, height, options);
     let rtB = new THREE.WebGLRenderTarget(width, height, options);
 
-    // Simulation material
+   
     const simMaterial = new THREE.ShaderMaterial({
       uniforms: {
         textureA: { value: null },
@@ -62,7 +60,7 @@ export default function RippleEffect() {
       fragmentShader: simulationFragmentShader,
     });
 
-    // Render material
+ 
     const renderMaterial = new THREE.ShaderMaterial({
       uniforms: {
         textureA: { value: null },
@@ -223,7 +221,7 @@ export default function RippleEffect() {
 
     animate();
 
-    // Cleanup on unmount
+    
     return () => {
       renderer.domElement.removeEventListener('mousemove', onMouseMove);
       renderer.domElement.removeEventListener('mouseleave', onMouseLeave);
