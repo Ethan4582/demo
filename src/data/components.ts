@@ -15,7 +15,7 @@ export const components: ComponentData[] = [
       name: "Scroll Motion Gallery",
       shortDescription: "A scroll-driven gallery where images rotate with depth and motion. Hover reveals video previews and metadata. ",
       instruction: "Scroll to see the magic✨.",
-      image: "https://res.cloudinary.com/dbgee370f/image/upload/v1772525777/Screenshot_2026-03-03_124655_lgc6rs.png",
+      image: "https://res.cloudinary.com/dbgee370f/image/upload/v1773086721/demp_scrool_Gallery_ilnemr.png",
       category: "SCROLL",
       date: "March 10, 2026",
    },
